@@ -1,0 +1,16 @@
+{
+  "name": "KiKi FM",
+  "short_name": "KiKi FM",
+  "description": "Your Tamil Radio World",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#14121F",
+  "theme_color": "#14121F",
+  "icons": [
+    {
+      "src": "/favicon/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

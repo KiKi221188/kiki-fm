@@ -1,0 +1,98 @@
+[
+  {
+    "id": "kiki-tamil",
+    "name": "KiKi FM Tamil",
+    "description": "Non-stop Tamil film music from the last three decades, day and night.",
+    "streamUrl": "https://ice1.somafm.com/groovesalad-256-mp3",
+    "logo": "/images/stations/kiki-tamil.svg",
+    "category": "Tamil",
+    "city": "Chennai",
+    "country": "India",
+    "website": "https://example.com/kiki-tamil",
+    "isActive": true
+  },
+  {
+    "id": "kiki-melody",
+    "name": "KiKi Melody",
+    "description": "Soft melodies and love songs for late-night listening.",
+    "streamUrl": "https://ice1.somafm.com/dronezone-256-mp3",
+    "logo": "/images/stations/kiki-melody.svg",
+    "category": "Melody",
+    "city": "Coimbatore",
+    "country": "India",
+    "website": "https://example.com/kiki-melody",
+    "isActive": true
+  },
+  {
+    "id": "kiki-retro",
+    "name": "KiKi Retro",
+    "description": "Golden-era classics from the 70s, 80s and 90s.",
+    "streamUrl": "https://ice1.somafm.com/deepspaceone-128-mp3",
+    "logo": "/images/stations/kiki-retro.svg",
+    "category": "Tamil Retro",
+    "city": "Madurai",
+    "country": "India",
+    "website": "https://example.com/kiki-retro",
+    "isActive": true
+  },
+  {
+    "id": "kiki-hits",
+    "name": "KiKi Hits",
+    "description": "Today's chart-topping Tamil hits on repeat.",
+    "streamUrl": "https://ice1.somafm.com/beatblender-256-mp3",
+    "logo": "/images/stations/kiki-hits.svg",
+    "category": "Tamil Hits",
+    "city": "Chennai",
+    "country": "India",
+    "website": "https://example.com/kiki-hits",
+    "isActive": true
+  },
+  {
+    "id": "kiki-devotional",
+    "name": "KiKi Bhakti",
+    "description": "Devotional hymns and temple music through the day.",
+    "streamUrl": "https://ice1.somafm.com/illstreet-128-mp3",
+    "logo": "/images/stations/kiki-devotional.svg",
+    "category": "Devotional",
+    "city": "Palani",
+    "country": "India",
+    "website": "https://example.com/kiki-devotional",
+    "isActive": true
+  },
+  {
+    "id": "kiki-diaspora",
+    "name": "KiKi World Tamil",
+    "description": "Tamil music and talk for listeners outside India.",
+    "streamUrl": "https://ice1.somafm.com/secretagent-128-mp3",
+    "logo": "/images/stations/kiki-diaspora.svg",
+    "category": "International Tamil",
+    "city": "Singapore",
+    "country": "Singapore",
+    "website": "https://example.com/kiki-diaspora",
+    "isActive": true
+  },
+  {
+    "id": "kiki-news",
+    "name": "KiKi News Tamil",
+    "description": "Tamil news bulletins and current-affairs discussion.",
+    "streamUrl": "https://ice1.somafm.com/news-128-mp3",
+    "logo": "/images/stations/kiki-news.svg",
+    "category": "News",
+    "city": "Chennai",
+    "country": "India",
+    "website": "https://example.com/kiki-news",
+    "isActive": false
+  },
+  {
+    "id": "kiki-community",
+    "name": "KiKi Community Radio",
+    "description": "Local voices, interviews and community programming.",
+    "streamUrl": "https://ice1.somafm.com/indiepop-128-mp3",
+    "logo": "/images/stations/kiki-community.svg",
+    "category": "Community",
+    "city": "Jaffna",
+    "country": "Sri Lanka",
+    "website": "https://example.com/kiki-community",
+    "isActive": true
+  }
+]

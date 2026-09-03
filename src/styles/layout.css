@@ -1,0 +1,148 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app--player-visible {
+  padding-bottom: var(--player-height);
+}
+
+@media (max-width: 640px) {
+  .app--player-visible {
+    padding-bottom: var(--player-height-mobile);
+  }
+}
+
+main {
+  flex: 1;
+}
+
+.hero {
+  border-bottom: 1px solid var(--ink-line);
+  background:
+    radial-gradient(ellipse 600px 300px at 15% 0%, rgba(242, 169, 60, 0.14), transparent),
+    radial-gradient(ellipse 500px 260px at 90% 20%, rgba(53, 168, 158, 0.12), transparent);
+}
+
+.hero__inner {
+  padding: var(--space-8) 0 var(--space-7);
+  max-width: 640px;
+}
+
+.hero__title {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  font-size: 3rem;
+  color: var(--marigold);
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  color: var(--paper);
+  font-weight: 500;
+}
+
+.hero__tagline {
+  margin-top: var(--space-4);
+  font-size: 1.05rem;
+  color: var(--mist);
+}
+
+.hero__search {
+  margin-top: var(--space-6);
+  max-width: 440px;
+}
+
+.section {
+  padding: var(--space-6) 0;
+}
+
+.section--grid {
+  padding-top: 0;
+}
+
+.page-title {
+  font-size: 1.8rem;
+  margin-bottom: var(--space-2);
+}
+
+.page-subtitle {
+  margin-bottom: var(--space-6);
+}
+
+.station-details {
+  max-width: 560px;
+}
+
+.station-details__logo {
+  width: 96px;
+  height: 96px;
+  border-radius: var(--radius-m);
+  object-fit: cover;
+  margin-bottom: var(--space-4);
+}
+
+.station-details__meta {
+  color: var(--marigold);
+  margin-bottom: var(--space-5);
+}
+
+.station-details__actions {
+  display: flex;
+  gap: var(--space-3);
+  margin-bottom: var(--space-6);
+}
+
+.play-button--large {
+  flex: none;
+  padding: var(--space-3) var(--space-6);
+}
+
+.station-details__heading {
+  font-size: 1.1rem;
+  margin-top: var(--space-6);
+  margin-bottom: var(--space-2);
+}
+
+.station-details__links {
+  margin-top: var(--space-5);
+}
+
+.station-details__links a {
+  color: var(--teal);
+  text-decoration: underline;
+}
+
+.about p {
+  max-width: 640px;
+  margin-bottom: var(--space-4);
+}
+
+.site-footer {
+  border-top: 1px solid var(--ink-line);
+  padding: var(--space-6) 0;
+}
+
+.site-footer__row {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  font-size: 0.85rem;
+  color: var(--mist-dim);
+}
+
+.site-footer__link {
+  color: var(--teal);
+}
+
+@media (max-width: 600px) {
+  .hero__title {
+    font-size: 2.2rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1.15rem;
+  }
+}

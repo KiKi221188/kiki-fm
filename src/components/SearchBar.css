@@ -1,0 +1,31 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  background: var(--ink-raised);
+  border: 1px solid var(--ink-line);
+  border-radius: 999px;
+  padding: var(--space-3) var(--space-5);
+  color: var(--mist-dim);
+}
+
+.search-bar:focus-within {
+  border-color: var(--marigold);
+}
+
+.search-bar input {
+  flex: 1;
+  background: none;
+  border: none;
+  color: var(--paper);
+  font-size: 1rem;
+  outline: none;
+}
+
+.search-bar input::placeholder {
+  color: var(--mist-dim);
+}
+
+.search-bar input::-webkit-search-cancel-button {
+  filter: invert(1) opacity(0.6);
+}
